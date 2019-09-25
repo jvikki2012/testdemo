@@ -11,6 +11,7 @@ public class Browsertest {
 		
 		System.setProperty("webdriver.chrome.driver", "D:/Eclipse workspace/Oneprodapt/Driver/chromedriver.exe");
 		WebDriver driver = new ChromeDriver();
+		driver.get("https://google.com");
 		System.out.println("Hello world");
 		System.out.println("Step completed");
 		
